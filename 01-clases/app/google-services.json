@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "925075887631",
+    "project_id": "kmpj-2024a-sw-gr2",
+    "storage_bucket": "kmpj-2024a-sw-gr2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925075887631:android:fccdb3ebcf92ef3d4cb57a",
+        "android_client_info": {
+          "package_name": "com.example.a2024aswgr2pjkm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATEgAe9Y5YL9gxy1JuhUMKfaolW5ZDHuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

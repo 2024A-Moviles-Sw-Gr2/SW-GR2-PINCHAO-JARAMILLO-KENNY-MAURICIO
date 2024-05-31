@@ -1,0 +1,26 @@
+[
+  {
+    "idPlaneta": "1",
+    "valor": "78% N2, 21% O2",
+    "className": "Caracteristica",
+    "id": "2",
+    "nombre": "Composición Atmosférica",
+    "class": "class Caracteristica"
+  },
+  {
+    "idPlaneta": "2",
+    "valor": "-145°C",
+    "className": "Caracteristica",
+    "id": "3",
+    "nombre": "Temperatura Media",
+    "class": "class Caracteristica"
+  },
+  {
+    "idPlaneta": "2",
+    "valor": "90% H2, 10% He",
+    "className": "Caracteristica",
+    "id": "4",
+    "nombre": "Composición Atmosférica",
+    "class": "class Caracteristica"
+  }
+]

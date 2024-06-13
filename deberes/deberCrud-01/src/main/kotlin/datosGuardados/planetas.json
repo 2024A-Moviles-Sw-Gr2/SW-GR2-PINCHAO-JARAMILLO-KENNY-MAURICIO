@@ -1,0 +1,29 @@
+[
+  {
+    "masa": "1.9E27",
+    "tipo": "Gaseoso",
+    "className": "Planeta",
+    "id": "2",
+    "nombre": "Júpiter",
+    "class": "class Planeta",
+    "radio": "69911.0"
+  },
+  {
+    "masa": "1.02E26",
+    "tipo": "Gaseoso",
+    "className": "Planeta",
+    "id": "3",
+    "nombre": "Neptuno",
+    "class": "class Planeta",
+    "radio": "24622.0"
+  },
+  {
+    "masa": "5.68E26",
+    "tipo": "Gaseoso",
+    "className": "Planeta",
+    "id": "4",
+    "nombre": "Saturno",
+    "class": "class Planeta",
+    "radio": "58232.0"
+  }
+]

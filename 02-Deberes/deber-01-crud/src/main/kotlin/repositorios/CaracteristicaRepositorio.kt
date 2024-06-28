@@ -1,4 +1,0 @@
-package repositorios
-
-class CeracteristicaRepositorio {
-}

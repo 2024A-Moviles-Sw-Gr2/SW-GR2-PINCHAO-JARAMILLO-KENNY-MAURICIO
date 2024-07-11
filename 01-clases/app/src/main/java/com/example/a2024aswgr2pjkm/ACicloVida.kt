@@ -1,10 +1,7 @@
 package com.example.a2024aswgr2pjkm
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.snackbar.Snackbar
 
 class ACicloVida : AppCompatActivity() {
@@ -14,7 +11,7 @@ class ACicloVida : AppCompatActivity() {
     fun mostrarSnackbar(texto: String) {
         textoGlobal += texto
         val snack = Snackbar.make(
-            findViewById(R.id.cl_ciclo_vida),
+            findViewById(R.id.id_layout_main),
             textoGlobal,
             Snackbar.LENGTH_INDEFINITE
         )

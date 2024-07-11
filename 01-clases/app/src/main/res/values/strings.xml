@@ -2,4 +2,9 @@
     <string name="app_name">2024ASWGR2PJKM</string>
     <string name="saludo">HOLA MUNDO</string>
     <string name="texto">ESTOY PORTAIT Y EN INGLESS AAA</string>
+    <string-array name="string_array_opciones">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
 </resources>

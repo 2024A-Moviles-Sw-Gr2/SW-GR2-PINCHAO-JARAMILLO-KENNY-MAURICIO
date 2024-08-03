@@ -1,0 +1,23 @@
+<!-- res/menu/bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/fluent__home_12_filled"
+        android:title="Principal" />
+    <item
+        android:id="@+id/nav_markets"
+        android:icon="@drawable/ic__twotone_bar_chart"
+        android:title="Mercados" />
+    <item
+        android:id="@+id/nav_operation"
+        android:icon="@drawable/ri__hand_coin_fill"
+        android:title="Operacion" />
+    <item
+        android:id="@+id/nav_futures"
+        android:icon="@drawable/teenyicons__contract_solid"
+        android:title="Futuros" />
+    <item
+        android:id="@+id/nav_wallet"
+        android:icon="@drawable/mingcute__wallet_4_fill"
+        android:title="Billetera" />
+</menu>

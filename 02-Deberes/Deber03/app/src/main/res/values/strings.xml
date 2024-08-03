@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BinanceApp</string>
+    <dimen name="item_spacing">16dp</dimen>
+</resources>

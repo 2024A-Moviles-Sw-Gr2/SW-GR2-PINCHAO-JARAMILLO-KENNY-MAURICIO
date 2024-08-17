@@ -15,7 +15,6 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.deber_02.R
 import com.example.deber_02.adaptadores.CaracteristicaAdapter
 import com.example.deber_02.base_datos.EBaseDeDatos
-import com.example.deber_02.datos.BDatosMemoriaCaracteristica
 import com.google.android.material.snackbar.Snackbar
 class Caracteristicas : AppCompatActivity() {
     private var posicionItemSeleccionado = -1

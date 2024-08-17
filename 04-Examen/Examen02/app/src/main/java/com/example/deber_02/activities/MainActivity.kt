@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.deber_02.R
 import com.example.deber_02.adaptadores.PlanetaAdapter
 import com.example.deber_02.base_datos.EBaseDeDatos
-import com.example.deber_02.datos.BDatosMemoriaPlaneta
+
 import com.example.deber_02.helpers.ESqliteHelperCaracteristica
 import com.example.deber_02.helpers.ESqliteHelperPlaneta
 import com.example.deber_02.mapa.Ubicacion
@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.menu_planeta_ver -> {
-                mostrarSnackbar("Características $posicionItemSeleccionado")
+
                 irActividad(Caracteristicas::class.java, planetaId)
                 true
             }

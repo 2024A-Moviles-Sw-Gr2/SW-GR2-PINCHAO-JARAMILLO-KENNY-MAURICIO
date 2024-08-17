@@ -7,74 +7,98 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
+    <!-- Contenedor principal para mantener el contenido centrado y con padding -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
+        <!-- Sección de título y botón para crear planeta -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="263dp"
-                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:gravity="center"
                 android:text="Planetas"
                 android:textAllCaps="true"
-                android:textSize="20sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btn_crear_planeta"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Crear planeta" />
-
         </LinearLayout>
 
+        <!-- Lista de planetas -->
         <ListView
             android:id="@+id/lv_planeta"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:layout_marginTop="0dp" />
+            android:layout_marginBottom="16dp" />
 
-    </LinearLayout>
-
-    <!-- Adding the buttons at the bottom -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="bottom"
-        android:layout_margin="10dp">
-
-        <Button
-            android:id="@+id/btn_ubicacion1"
-            android:layout_width="0dp"
+        <!-- Sección de botones en la parte inferior con CardView para darle estilo moderno -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Ubicacion1" />
+            android:orientation="horizontal"
+            android:gravity="center">
 
-        <Button
-            android:id="@+id/btn_ubicacion2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Ubicacion2" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="8dp">
 
-        <Button
-            android:id="@+id/btn_ubicacion3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Ubicacion3" />
+                <Button
+                    android:id="@+id/btn_ubicacion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ubicación 1" />
+            </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/btn_ubicacion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ubicación 2" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/btn_ubicacion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ubicación 3" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
     </LinearLayout>
 </FrameLayout>
